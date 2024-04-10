@@ -1,7 +1,7 @@
 const quoteContainer = document.getElementById("quote-container");
 const quoteText = document.getElementById("quote");
 const authorText = document.getElementById("author");
-const facebookBtn = document.getElementById("facebook");
+const twitterBtn = document.getElementById("twitter");
 const newQuoteBtn = document.getElementById("new-quote");
 const loader = document.getElementById("loader");
 
@@ -52,14 +52,14 @@ async function getQuotes() {
   }
 }
 
-/* // twitter share quote
+// twitter share quote
 function twitterQuote() {
-  const twitterUrl = `https://www.facebook.com/dialog/share?hastag=${quoteText.textContent} - ${authorText.textContent}`;
-  window.open(facebookUrl, "_blank");
-} */
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+  window.open(twitterUrl, "_blank");
+}
 
 // Event Listeners
-/* facebookBtn.addEventListener("click", twitterQuote); */
+twitterBtn.addEventListener("click", twitterQuote);
 newQuoteBtn.addEventListener("click", newQuote);
 
 // Onload
