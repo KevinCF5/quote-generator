@@ -19,5 +19,5 @@ This is a simple quote generator website.
 
 https://kevincf5.github.io/quote-generator/
 
-<img src="/assets/images/project images/Quote Generator -  page 1.png" align="center" height="20" hspace="1"/>
-<img src="/assets/images/project images/Quote Generator -  page 2.png" align="center" height="20" hspace="1"/>
+<img src="/assets/images/project images/Quote Generator -  page 1.png" />
+<img src="/assets/images/project images/Quote Generator -  page 2.png" />
