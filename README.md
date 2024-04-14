@@ -17,7 +17,7 @@ This is a simple quote generator website.
 
 ### Live Version
 
-https://kevincf5.github.io/quote-generator/
+https://quote-generator-iota-eight.vercel.app/
 
 <img src="/assets/images/project images/Quote Generator -  page 1.png" />
 <img src="/assets/images/project images/Quote Generator - page 2.png" />
